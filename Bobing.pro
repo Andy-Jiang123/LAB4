@@ -32,6 +32,8 @@ SOURCES += \
         payment_mode.cpp \
         play_bobing.cpp \
         play_mode.cpp \
+        prize.cpp \
+        rules.cpp \
         wait.cpp \
         widget.cpp
 
@@ -42,6 +44,8 @@ HEADERS += \
         payment_mode.h \
         play_bobing.h \
         play_mode.h \
+        prize.h \
+        rules.h \
         wait.h \
         widget.h
 
@@ -52,6 +56,8 @@ FORMS += \
         payment_mode.ui \
         play_bobing.ui \
         play_mode.ui \
+        prize.ui \
+        rules.ui \
         wait.ui \
         widget.ui
 
