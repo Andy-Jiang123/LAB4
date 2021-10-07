@@ -7,7 +7,7 @@
 QT       += core gui
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
-
+QT +=sql
 TARGET = Bobing
 TEMPLATE = app
 
@@ -25,6 +25,8 @@ DEFINES += QT_DEPRECATED_WARNINGS
 CONFIG += c++11
 
 SOURCES += \
+        begin.cpp \
+        exchange.cpp \
         main.cpp \
         match.cpp \
         mode.cpp \
@@ -33,11 +35,14 @@ SOURCES += \
         play_bobing.cpp \
         play_mode.cpp \
         prize.cpp \
+        regist.cpp \
         rules.cpp \
         wait.cpp \
         widget.cpp
 
 HEADERS += \
+        begin.h \
+        exchange.h \
         match.h \
         mode.h \
         one_player_mode.h \
@@ -45,11 +50,14 @@ HEADERS += \
         play_bobing.h \
         play_mode.h \
         prize.h \
+        regist.h \
         rules.h \
         wait.h \
         widget.h
 
 FORMS += \
+        begin.ui \
+        exchange.ui \
         match.ui \
         mode.ui \
         one_player_mode.ui \
@@ -57,6 +65,7 @@ FORMS += \
         play_bobing.ui \
         play_mode.ui \
         prize.ui \
+        regist.ui \
         rules.ui \
         wait.ui \
         widget.ui
