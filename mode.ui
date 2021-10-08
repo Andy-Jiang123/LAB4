@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>mode</class>
+ <widget class="QWidget" name="mode">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>487</width>
+    <height>640</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>60</y>
+     <width>311</width>
+     <height>281</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QPushButton" name="pushButton">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(170, 0, 0);
+font: 25 18pt &quot;Bookman Old Style&quot;;</string>
+      </property>
+      <property name="text">
+       <string>FREE MODE</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_2">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(170, 0, 0);
+font: 25 18pt &quot;Bookman Old Style&quot;;</string>
+      </property>
+      <property name="text">
+       <string>PAYMENT MODE</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_3">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(170, 0, 0);
+font: 25 18pt &quot;Bookman Old Style&quot;;</string>
+      </property>
+      <property name="text">
+       <string>RETURN</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>mode</receiver>
+   <slot>free_mode()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>254</x>
+     <y>87</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>376</x>
+     <y>295</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_2</sender>
+   <signal>clicked()</signal>
+   <receiver>mode</receiver>
+   <slot>pay_mode()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>178</x>
+     <y>143</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>40</x>
+     <y>301</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_3</sender>
+   <signal>clicked()</signal>
+   <receiver>mode</receiver>
+   <slot>click_return()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>278</x>
+     <y>268</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>205</x>
+     <y>301</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>free_mode()</slot>
+  <slot>pay_mode()</slot>
+  <slot>click_return()</slot>
+ </slots>
+</ui>

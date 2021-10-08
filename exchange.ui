@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>exchange</class>
+ <widget class="QWidget" name="exchange">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>487</width>
+    <height>640</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QWidget" name="widget_3" native="true">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>100</y>
+     <width>351</width>
+     <height>471</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QWidget" name="widget_2" native="true">
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <item>
+        <widget class="QLabel" name="label_4">
+         <property name="text">
+          <string>TextLabel</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton_4">
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(170, 0, 0);
+font: 25 18pt &quot;Bookman Old Style&quot;;</string>
+         </property>
+         <property name="text">
+          <string>100000$</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_5">
+         <property name="text">
+          <string>TextLabel</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton_5">
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(170, 0, 0);
+font: 25 18pt &quot;Bookman Old Style&quot;;</string>
+         </property>
+         <property name="text">
+          <string>25000$</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_6">
+         <property name="text">
+          <string>TextLabel</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton_6">
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(170, 0, 0);
+font: 25 18pt &quot;Bookman Old Style&quot;;</string>
+         </property>
+         <property name="text">
+          <string>5000$</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item>
+     <widget class="QWidget" name="widget" native="true">
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <widget class="QLabel" name="label">
+         <property name="text">
+          <string>TextLabel</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton">
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(170, 0, 0);
+font: 25 18pt &quot;Bookman Old Style&quot;;</string>
+         </property>
+         <property name="text">
+          <string>50000$</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_2">
+         <property name="text">
+          <string>TextLabel</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton_2">
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(170, 0, 0);
+font: 25 18pt &quot;Bookman Old Style&quot;;</string>
+         </property>
+         <property name="text">
+          <string>10000$</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_3">
+         <property name="text">
+          <string>TextLabel</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton_3">
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(170, 0, 0);
+font: 25 18pt &quot;Bookman Old Style&quot;;</string>
+         </property>
+         <property name="text">
+          <string>2500$</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>30</y>
+     <width>251</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:20pt; font-weight:600; color:#ffff00;&quot;&gt;CREDITS STORE&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_7">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>580</y>
+     <width>171</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(170, 0, 0);
+font: 25 18pt &quot;Bookman Old Style&quot;;</string>
+   </property>
+   <property name="text">
+    <string>RETURN</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>pushButton_7</sender>
+   <signal>clicked()</signal>
+   <receiver>exchange</receiver>
+   <slot>click_return()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>284</x>
+     <y>596</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>512</x>
+     <y>611</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_4</sender>
+   <signal>clicked()</signal>
+   <receiver>exchange</receiver>
+   <slot>prize_1()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>144</x>
+     <y>238</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>502</x>
+     <y>171</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>exchange</receiver>
+   <slot>prize_2()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>348</x>
+     <y>240</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>536</x>
+     <y>262</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_5</sender>
+   <signal>clicked()</signal>
+   <receiver>exchange</receiver>
+   <slot>prize_3()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>185</x>
+     <y>389</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>-27</x>
+     <y>393</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_2</sender>
+   <signal>clicked()</signal>
+   <receiver>exchange</receiver>
+   <slot>prize_4()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>349</x>
+     <y>379</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>518</x>
+     <y>415</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_6</sender>
+   <signal>clicked()</signal>
+   <receiver>exchange</receiver>
+   <slot>prize_5()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>170</x>
+     <y>524</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>-26</x>
+     <y>534</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_3</sender>
+   <signal>clicked()</signal>
+   <receiver>exchange</receiver>
+   <slot>prize_6()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>360</x>
+     <y>524</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>565</x>
+     <y>542</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>click_return()</slot>
+  <slot>prize_1()</slot>
+  <slot>prize_2()</slot>
+  <slot>prize_3()</slot>
+  <slot>prize_4()</slot>
+  <slot>prize_5()</slot>
+  <slot>prize_6()</slot>
+ </slots>
+</ui>

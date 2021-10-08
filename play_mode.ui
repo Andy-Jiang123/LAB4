@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Play_Mode</class>
+ <widget class="QWidget" name="Play_Mode">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>487</width>
+    <height>640</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>50</y>
+     <width>266</width>
+     <height>227</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QPushButton" name="pushButton">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(170, 0, 0);
+font: 25 18pt &quot;Bookman Old Style&quot;;</string>
+      </property>
+      <property name="text">
+       <string>ONE PLAYER</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_2">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(170, 0, 0);
+font: 25 18pt &quot;Bookman Old Style&quot;;</string>
+      </property>
+      <property name="text">
+       <string>TWO PLAYER</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_3">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(170, 0, 0);
+font: 25 18pt &quot;Bookman Old Style&quot;;</string>
+      </property>
+      <property name="text">
+       <string>THREE PLAYER</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_4">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(170, 0, 0);
+font: 25 18pt &quot;Bookman Old Style&quot;;</string>
+      </property>
+      <property name="text">
+       <string>FOUR PLAYER</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>Play_Mode</receiver>
+   <slot>one_player()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>239</x>
+     <y>46</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>332</x>
+     <y>297</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_2</sender>
+   <signal>clicked()</signal>
+   <receiver>Play_Mode</receiver>
+   <slot>two_player()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>227</x>
+     <y>95</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>499</x>
+     <y>219</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_3</sender>
+   <signal>clicked()</signal>
+   <receiver>Play_Mode</receiver>
+   <slot>three_player()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>250</x>
+     <y>142</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>533</x>
+     <y>190</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_4</sender>
+   <signal>clicked()</signal>
+   <receiver>Play_Mode</receiver>
+   <slot>four_player()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>189</x>
+     <y>208</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>493</x>
+     <y>425</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>one_player()</slot>
+  <slot>two_player()</slot>
+  <slot>three_player()</slot>
+  <slot>four_player()</slot>
+ </slots>
+</ui>
